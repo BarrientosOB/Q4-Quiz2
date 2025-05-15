@@ -1,7 +1,7 @@
 function verifyBmi(mvalue, hvalue, zvalue){
-					var num1 = document.getElementById('m-value').value;
-					var num2 = document.getElementById('h-value').value; 
-					var num3 = document.getElementById('z-value').value;
+					var num1 = Number(document.getElementById('m-value').value);
+					var num2 = Number(document.getElementById('h-value').value); 
+					var num3 = Number(document.getElementById('z-value').value);
 					var sum = num1 + num2 + num3 ;
 					var total = sum/3;
 					
